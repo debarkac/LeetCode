@@ -5,7 +5,6 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             res.add(index[i],nums[i]);
         }
-
         for(int i=0;i<nums.length;i++){
             target[i]=res.get(i);
         }
